@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Examples</title>
+    <link rel="stylesheet" href="htmlform.css">
+  </head>
+
+  <body>
+    <header>
+      
+      <nav class="navigation">
+        <a href="#" class="textcolor">Home</a>
+        <a href="#"class="textcolor">News</a>
+        <a href="#"class="textcolor">Contact</a>
+        <a href="#"class="textcolor">About</a>
+      </nav>
+      
+    </header>
+
+    <div class="container">
+
+      <form>
+        <h2>Registration Form</h2>
+        <br>
+        <br>
+        <p>Please fill in this form to create an account</p>
+        <br>
+  
+        <label>First Name: *</label><br><br>
+        <input
+          type="text"
+          placeholder="Enter First Name"
+          id="fn"
+          name="firstName"
+          required
+          class="firstname"  />
+        <br>
+        <br>
+  
+      
+        <label>Last Name: *</label>
+        <br><br><input
+          type="text"
+          placeholder="Enter Last Name"
+          id="ln"
+          name="lastName"
+          required class="lastname"
+        /><br><br>
+  
+        <label>Email: *</label>
+        <br><br><input
+          type="text"
+          placeholder="Enter a valid Email"
+          id="email"
+          name="email"
+          required class="email"
+        /><br><br>
+  
+        <label>Course:</label><br><br>
+        <select id="course" name="course" class="coursename">
+          <option value="1">Java</option>
+          <option value="2">C#</option>
+          <option value="3">Python</option>
+        </select><br><br>
+  
+        <label>Description</label><br><br>
+        <textarea
+          id="desc"
+          name="desc"
+          placeholder="Tell us about your experiences..." class="textarea"
+        >
+        </textarea>
+  
+        <hr /><br>
+  
+        <button type="submit" class="register-btn">Register</button>
+        <br><br>
+        <table>
+          <thead>
+            <tr class="tablehead">
+              <th>Id</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th colspan="2">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="namedetail-1">
+              <td>1</td>
+              <td>Mehrdad</td>
+              <td>Javan</td>
+              <td><button type="submit"class="tablebutton">Delete</button></td>
+              <td><button type="submit"class="tablebutton">Edit</button></td>
+            </tr>
+            <tr class="namedetail-2">
+              <td>2</td>
+              <td>Simon</td>
+              <td>Elbrink</td>
+              <td><button type="submit" class="tablebutton">Delete</button></td>
+              <td><button type="submit"class="tablebutton">Edit</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </form><br><br>
+  
+      <hr />
+       
+
+    </div>
+
+
+    <footer>
+      <h6>Copyright &copy; 2023 <span>Lexicon</span></h6>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+*{margin: 0;
+border: 0;}
+/*body starting*/
+body{background-color: azure;}
+/*body Ending*/
+
+/*navigation bar starting*/
+.navigation{
+    display: flex;
+    justify-content:space-around;
+    font-size: 25px;
+    background-color: black;
+    height: 50px;
+    padding: 10px;}
+.textcolor:hover{
+        background-color: white;
+        color:black;
+        cursor: pointer;
+    } 
+.textcolor{
+    color: white;
+    margin: 10px;
+}
+/*navigation bar Ending*/
+
+
+
+/* Your existing CSS styles */
+
+.container {
+   
+    width: 100%; /* Set a maximum width for responsiveness */
+  
+}
+
+
+/*form area starting*/
+form {
+ 
+    background-color: beige;
+    border-radius: 10px;
+    border: 5px solid lightgray;
+    padding: 10px;
+    width: 570px;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+}
+form input, form select {
+    width: 560px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.textarea{
+    width: 560px;
+    height: 60px;
+    border-radius: 10px;
+    border-radius: 5px;
+}
+.register-btn{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 560px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+
+}
+.register-btn:hover{background-color: white;
+    color:black;
+    cursor: pointer;
+
+}
+
+/*form area Ending*/
+
+/*table area starting*/
+table{    
+      
+    width: 560px;
+    height: 100px;
+    text-align: center;
+     
+}
+.tablehead{
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+.namedetail-1{
+    background-color: white;
+    border: 1px lightgray;
+}
+.namedetail-2{
+    background-color: white;
+    border: 1px lightgray;
+}
+.tablebutton{
+    background-color: black;
+    color: white;
+    height: 20px;
+    border-radius: 5px;
+}
+.tablebutton:hover{background-color: white;
+        color:black;
+        cursor: pointer;}
+
+/*table area Ending*/
+
+
+/*footor area starting*/
+footer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-align:;
+}
+footer h6{
+    margin: 15px;
+    font-size: 20px;
+}
+/*footor area Ending*/
+
+/* Add a media query for mobile screens */
+@media (max-width: 768px) {
+    .container {
+        width: 100%; /* Make it full-width on smaller screens */
+    }
+    form {
+        width:80% !important;
+    }
+    form input, form select,table,textarea,button {
+        width: 100% !important;
+        
+    }
+    
+}
+  
+  
